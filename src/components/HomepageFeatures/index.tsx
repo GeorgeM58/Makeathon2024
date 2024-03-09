@@ -1,18 +1,11 @@
 import React from 'react';
 
 type BlogPost = {
-  date: string;
   title: string;
   content: string;
 };
 
 const blogPosts: BlogPost[] = [
-  {
-    date: 'August 2023',
-    title: 'Finished Cornell graduate course ECE 6775: High-Level Digital Design Automation Tutorial Document',
-    content: `Worked alongside two graduate students to write a 14-page tutorial on FPGA optimization techniques
-    using Vivado incorporating pragmas (e.g. unrolling, pipelining, and array partitioning)`,
-  },
   // Add more blog posts if needed
 ];
 
@@ -24,7 +17,6 @@ function BlogSection() {
           className="section-title"
           style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '20px' }}
         >
-          Latest Updates
         </h2>
         <div className="blog-posts">
           {blogPosts.map((post, idx) => (
@@ -37,7 +29,7 @@ function BlogSection() {
                 borderRadius: '8px',
               }}
             >
-              <p style={{ fontSize: '1rem' }}>{post.date}</p>
+              <p style={{ fontSize: '1rem' }}></p>
               <h3
                 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '0.5rem' }}
               >

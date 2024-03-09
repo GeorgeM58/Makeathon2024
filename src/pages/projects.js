@@ -20,43 +20,6 @@ const projects = [
     image: '/img/bertha.jpg',
     link: 'https://pages.github.coecis.cornell.edu/ece3140-sp2023/gpm58-pis7/',
   },
-  {
-    title: 'Drone with Object Detection, Live Video Feed, 3D Sonar Dection and GPS',
-    description: 'EDIT',
-    image: '/img/project2.png',
-    link: 'https://example.com/project2',
-  },
-  {
-    title: '2D Basketball Game',
-    description: 'EDIT',
-    image: '/img/project2.png',
-    link: 'https://example.com/project2',
-  },
-  {
-    title: 'Matrix-vector Multiplication Code with FPGA Optimizations for Vivado2019',
-    description: 'EDIT',
-    image: '/img/project2.png',
-    link: 'https://example.com/project2',
-  },
-  {
-    title: 'Calculator with Graphing Feature',
-    description: 'EDIT',
-    image: '/img/project2.png',
-    link: 'https://example.com/project2',
-  },
-  {
-    title: 'Heat Map Predicting US Minimum Wage in 2024',
-    description: 'EDIT',
-    image: '/img/project2.png',
-    link: 'https://example.com/project2',
-  },
-  {
-    title: 'Small LCD Alarm Clock using Arduino',
-    description: 'EDIT',
-    image: '/img/project2.png',
-    link: 'https://example.com/project2',
-  },
-  // Add more projects here...
 ];
 
 function Project({ title, description, image, link }) {

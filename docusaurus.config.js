@@ -2,9 +2,9 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 module.exports = {
-  title: 'George Maidhof',
-  favicon: 'img/gpm.png',
-  url: 'https://george_ece_maidhof.com',
+  title: 'Metro Mania',
+  favicon: 'img/metro_mania.png',
+  url: 'https://fwefewuinuiewf.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,25 +28,20 @@ module.exports = {
       component: require.resolve('./src/theme/CustomLayout.js'),
     },
     navbar: {
-      title: 'George Maidhof',
+      title: 'Metro Mania',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/gpm.png',
+        src: 'img/metro_mania.png',
       },
       items: [
         {
-          to: '/about_me',
-          label: 'About Me',
+          to: '/about_us',
+          label: 'About Us',
           position: 'left',
         },
         {
           to: '/projects',
           label: 'Projects',
-          position: 'left',
-        },
-        {
-          to: '/resume',
-          label: 'Resume',
           position: 'left',
         },
         {
@@ -60,58 +55,12 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/GeorgeM58',
+          href: 'https://github.com/GeorgeM58/Makeathon2024',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
-    /*
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-    },
-    */
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
