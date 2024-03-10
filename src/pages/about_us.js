@@ -42,7 +42,7 @@ const peopleData = [
     name: 'George Maidhof',
     image: 'gpm_pic.img',
     description: `
-    Hello, I'm George! I am currently a junior majoring in Electrical and Computer Engineering at Cornell University. I serve as Project Full Team Lead
+    Hello, I'm George! I am currently a junior majoring in Electrical and Computer Engineering at Cornell University. I served as Project Full Team Lead
     of Cornell Nexus, a Project Team that aims to use technology to tackle and raise awareness about microplastics and pollution on our beaches and oceans.
     I also serve as a Residential Advisor in George Jameson Hall where I get to mentor and help freshmen adjust to college life and provide events to support
     and develop culture and connections within my community.
