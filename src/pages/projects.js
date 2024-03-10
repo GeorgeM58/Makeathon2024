@@ -3,22 +3,29 @@ import Layout from '@theme/Layout';
 
 const projects = [
   {
-    title: 'Big Bertha Brawler the Wireless RC Car (Click for more info)',
-    description: `Big Bertha is a RC that both Parker Schless and myself worked on! Our goal 
-    for this project was to develop a working RC Car that utilized the programming langauge C
-    and a FRDM Board. We used 2 Arduinos to faciliate the RF communication as we had trouble using RF 
-    on the FRDM Board to our laptop. We used the bluetooth feature of the XBox controller to connect 
-    to our laptop and transmit its signal. We wanted to utilize tank turning and be able to control the 
-    direction and speed of 4 motors independently so we implimented a L298N H-Bridge. 
+    title: 'Metro Mania',
+    description: `Metro Mania is a project that our group put together for the Makeathon 2024 at Cornell University.
+    The group consisted George Maidhof, Kaitlyn Beiler, Dan Wahab and Nolan Fuller. Each of us focused on a different 
+    part of the project. George focused on the development of the website and helping with the electronics. Kaitlyn focused
+    on the sensor and project integration and developing most of the overal project plan. Dan focused on data translation 
+    of the project along with helping the overal design. Nolan served as our mechanical designer and helped make our CAD models.
     
-    When designing this project, it also help refresh my memory on CAD (Fusion 360) as we wanted to design 
-    a frame that provided support for the motors, a lid feature to enclose electronics in the inside and also 
-    have a hole that can be accessed if we wanted to use a wired controller. 
+    Our overall focus of the project is to design something that would be effective in the scope of "Urban Development". We
+    took the route to focus on design of a light source that would be effective and efficent energy wise, reducing the overall
+    power consumed if utilized, while also trying to incorperate ways for reusable energy to aim for a long term more effective 
+    model. 
     
-    The range of the RC car worked suprising well as it worked for about a approximately 50 meters in open space. 
-    Our project was voted as the best project in our Embedded Systems class at Cornell (ECE 3140)!`,
-    image: '/img/bertha.jpg',
-    link: 'https://pages.github.coecis.cornell.edu/ece3140-sp2023/gpm58-pis7/',
+    Our project was to make a effective light source system designed to be effective for a Bus Stop! This is done taking in two main
+    details about the enviorment to design a light that would not be reliant on a non-autonomous system. The data we are using 
+    consist of, in priority, the amount of light present outside and also if there is any human movement near by. The goal is
+    to make a light at a bus stop that uses solar energy to effectivly charge during the day. From there, if there based on the readings 
+    we get from a Photodiode, converting that data to how bright/dim the light should be. We also have the feature where if you are
+    closer to the light, it should become brighter as well! 
+    
+    Some of the To-Dos we would like to add to our project if we had more technology at our disposal or had more time would be
+    adding a rechargable battery that would actually work with solar energy to provide an effective system. Also, having a way
+    to have a multi-colored diode that would like have different features meanings for the user to translate. Where, something 
+    like blue might represent that a bus is coming near by, etc.`,
   },
 ];
 

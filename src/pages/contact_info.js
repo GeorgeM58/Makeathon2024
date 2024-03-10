@@ -31,18 +31,14 @@ export default function ContactInfoPage() {
       <div style={containerStyles}>
         <h1 style={headingStyles}>Contact Information</h1>
         <p style={contactStyles}>
-          Email: <a href="mailto:gpm58@cornell.edu">gpm58@cornell.edu</a>
+          Email: George Maidhof <a href="mailto:gpm58@cornell.edu">gpm58@cornell.edu</a>
         </p>
         <p style={contactStyles}>
-          LinkedIn: <a href="https://www.linkedin.com/in/george-maidhof-70ab13249/">George Maidhof</a>
-        </p>
+          Email: Kaitlyn Beiler <a href="mailto:keb282@cornell.edu">keb282@cornell.edu</a>        </p>
         <p style={contactStyles}>
-          Instagram: <a href="https://www.instagram.com/georgemaidhof/">@georgemaidhof</a>
-        </p>
+          Email: Daniel Wahab <a href="mailto:dow26@cornell.edu">dow26@cornell.edu</a>        </p>
         <p style={contactStyles}>
-          Strava: <a href="https://www.strava.com/dashboard">George Maidhof</a>
-        </p>
-        {/* Add more contact information as needed */}
+          Email: Nolan Fuller<a href="mailto:naf47@cornell.edu">naf47@cornell.edu</a>        </p>
       </div>
     </Layout>
   );
